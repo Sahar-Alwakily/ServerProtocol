@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\Card-Games-master\cardGames\Common\bin\Debug\Common.exe.config
+C:\Users\User\Desktop\Card-Games-master\cardGames\Common\bin\Debug\Common.exe
+C:\Users\User\Desktop\Card-Games-master\cardGames\Common\bin\Debug\Common.pdb
+C:\Users\User\Desktop\Card-Games-master\cardGames\Common\bin\Debug\NetworkCommsDotNet.dll
+C:\Users\User\Desktop\Card-Games-master\cardGames\Common\bin\Debug\protobuf-net.dll
+C:\Users\User\Desktop\Card-Games-master\cardGames\Common\bin\Debug\ProtobufSerializer.dll
+C:\Users\User\Desktop\Card-Games-master\cardGames\Common\bin\Debug\NetworkCommsDotNet.pdb
+C:\Users\User\Desktop\Card-Games-master\cardGames\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Card-Games-master\cardGames\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Card-Games-master\cardGames\Common\obj\Debug\Common.csproj.CopyComplete
+C:\Users\User\Desktop\Card-Games-master\cardGames\Common\obj\Debug\Common.exe
+C:\Users\User\Desktop\Card-Games-master\cardGames\Common\obj\Debug\Common.pdb

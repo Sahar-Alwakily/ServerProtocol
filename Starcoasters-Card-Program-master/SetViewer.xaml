@@ -1,0 +1,59 @@
+﻿<Window x:Class="Starcoasters_Card_Generator.SetViewer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Starcoasters_Card_Generator"
+        mc:Ignorable="d"
+        Title="Set Viewer" Height="720" Width="1280" ResizeMode="CanMinimize" Loaded="Window_Loaded">
+    <Grid>
+        <!--General Grid Defining Stuff-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.25*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0.25*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.25*"/>
+            <RowDefinition Height="4.75*"/>
+            <RowDefinition/>
+            <RowDefinition Height="0.25*"/>
+        </Grid.RowDefinitions>
+        <!--The Scrollviewer with listview that will show all the cards in a given set-->
+        <ScrollViewer Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="9">
+            <ListView x:Name="LIV_CardList">
+                <ListView.View>
+                    <GridView>
+                        <!--Each Column holds a statistic of the card or a list of statistics-->
+                        <GridViewColumn Header="SetCode" DisplayMemberBinding="{Binding CardSetCode}"/>
+                        <GridViewColumn Header="Name (Primary)" DisplayMemberBinding="{Binding CardName}"/>
+                        <GridViewColumn Header="Name (Secondary)" DisplayMemberBinding="{Binding CardNameSecondary}"/>
+                        <GridViewColumn Header="Cost" DisplayMemberBinding="{Binding CardCost}"/>
+                        <GridViewColumn Header="Species" DisplayMemberBinding="{Binding CardSpecies}"/>
+                        <GridViewColumn Header="HP" DisplayMemberBinding="{Binding CardHP}"/>
+                        <GridViewColumn Header="ATK" DisplayMemberBinding="{Binding CardATK}"/>
+                        <GridViewColumn Header="DEF" DisplayMemberBinding="{Binding CardDEF}"/>
+                        <GridViewColumn Header="No. Abilities" DisplayMemberBinding="{Binding CardAbilityCount}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </ScrollViewer>
+        <!--The Buttons that perform functions-->
+        <Button x:Name="BTN_Edit" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" Content="Edit Card" Click="BTN_Edit_Click"/>
+        <Button x:Name="BTN_Delete" Grid.Column="3" Grid.Row="2" Content="RemoveCard" Click="BTN_Delete_Click"/>
+        <Button x:Name="BTN_Add" Grid.Column="9" Grid.Row="2" Content="Add Card" Click="BTN_Add_Click"/>
+        <!--These Ones Export The Cards In Various Formats-->
+        <Button x:Name="BTN_ExportBleed" Grid.Column="5" Grid.Row="2" Content="Export Bleed Cards" Click="BTN_ExportBleed_Click"/>
+        <Button x:Name="BTN_ExportCropped" Grid.Column="6" Grid.Row="2" Content="Export Cropped Cards" Click="BTN_ExportCropped_Click"/>
+        <Button x:Name="BTN_ExportVassal" Grid.Column="7" Grid.Row="2" Content="Export Vassal Cards" Click="BTN_ExportVassal_Click"/>
+
+    </Grid>
+</Window>

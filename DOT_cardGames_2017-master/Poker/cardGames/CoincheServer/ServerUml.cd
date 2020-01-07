@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CoincheServer.Card" Collapsed="true">
+    <Position X="8.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAABAQAAAEAAAAA=</HashCode>
+      <FileName>Card.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoincheServer.Combination" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAUAAAAABAAAAACAAAAAAAAAAAABAAAAAAAAIEg=</HashCode>
+      <FileName>Combination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoincheServer.Program" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Main.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoincheServer.PokerManager">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkgAAQASYAAAIBMgACQEQgABIEAAIAAAgEE4AAEAA=</HashCode>
+      <FileName>PokerManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_players" />
+      <Field Name="_board" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CoincheServer.ServerHandler">
+    <Position X="2.5" Y="3" Width="1.5" />
+    <NestedTypes>
+      <Class Name="CoincheServer.ServerHandler.EveryOneBut" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ServerHandler.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAgAAQAAEAAIAAABAEAAAAAAA=</HashCode>
+      <FileName>ServerHandler.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poker" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CoincheServer.Player" Collapsed="true">
+    <Position X="10" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIACAACAAAAAAAQACBAABAAAAAAAAAAQEAAAAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Hand" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

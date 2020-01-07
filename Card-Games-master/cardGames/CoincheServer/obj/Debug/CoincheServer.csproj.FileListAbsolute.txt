@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\Card-Games-master\cardGames\CoincheServer\bin\Debug\CoincheServer.exe.config
+C:\Users\User\Desktop\Card-Games-master\cardGames\CoincheServer\bin\Debug\CoincheServer.exe
+C:\Users\User\Desktop\Card-Games-master\cardGames\CoincheServer\bin\Debug\CoincheServer.pdb
+C:\Users\User\Desktop\Card-Games-master\cardGames\CoincheServer\bin\Debug\Common.exe
+C:\Users\User\Desktop\Card-Games-master\cardGames\CoincheServer\bin\Debug\NetworkCommsDotNet.dll
+C:\Users\User\Desktop\Card-Games-master\cardGames\CoincheServer\bin\Debug\protobuf-net.dll
+C:\Users\User\Desktop\Card-Games-master\cardGames\CoincheServer\bin\Debug\ProtobufSerializer.dll
+C:\Users\User\Desktop\Card-Games-master\cardGames\CoincheServer\bin\Debug\Common.pdb
+C:\Users\User\Desktop\Card-Games-master\cardGames\CoincheServer\bin\Debug\Common.exe.config
+C:\Users\User\Desktop\Card-Games-master\cardGames\CoincheServer\bin\Debug\NetworkCommsDotNet.pdb
+C:\Users\User\Desktop\Card-Games-master\cardGames\CoincheServer\obj\Debug\CoincheServer.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Card-Games-master\cardGames\CoincheServer\obj\Debug\CoincheServer.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Card-Games-master\cardGames\CoincheServer\obj\Debug\CoincheServer.csproj.CopyComplete
+C:\Users\User\Desktop\Card-Games-master\cardGames\CoincheServer\obj\Debug\CoincheServer.exe
+C:\Users\User\Desktop\Card-Games-master\cardGames\CoincheServer\obj\Debug\CoincheServer.pdb

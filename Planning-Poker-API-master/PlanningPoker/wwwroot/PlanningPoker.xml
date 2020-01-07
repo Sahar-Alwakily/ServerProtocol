@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PlanningPoker</name>
+    </assembly>
+    <members>
+        <member name="M:PlanningPoker.Controllers.SessionController.CreateSession(PlanningPoker.Model.SessionApplication)">
+            <summary>
+            Create a new session.
+            </summary>
+            <param name="application">The name of the session to create.</param>
+            <returns>The The created session.</returns>
+        </member>
+        <member name="M:PlanningPoker.Controllers.SessionController.JoinSession(System.String,PlanningPoker.Model.ParticipantApplication)">
+            <summary>
+            Join an existing session.
+            </summary>
+            <param name="sessionName">Name of the session to join.</param>
+            <param name="participant">Information about the person joining the session.</param>
+        </member>
+        <member name="M:PlanningPoker.Controllers.SessionController.GetSession(System.Guid)">
+            <summary>
+            Get information about an existing session.
+            </summary>
+            <param name="sessionId">The Id of the session</param>
+            <returns>The Session</returns>
+        </member>
+        <member name="M:PlanningPoker.Controllers.SessionController.PrepareRound(System.Guid)">
+            <summary>
+            Prepare a new round.
+            </summary>
+            <param name="sessionId">The id of the session where the round will be started</param>
+            <returns>The id of the new round.</returns>
+        </member>
+        <member name="M:PlanningPoker.Controllers.SessionController.Vote(System.String,System.Int32,PlanningPoker.Model.VoteBallot)">
+            <summary>
+            Submit a vote for the current round
+            </summary>
+            <param name="sessionName">The name of the session.</param>
+            <param name="roundId">The id of the round</param>
+            <param name="ballot">The vote ballot.</param>
+        </member>
+        <member name="M:PlanningPoker.Controllers.SessionController.EndRound(System.Guid,System.Int32)">
+            <summary>
+            End a round
+            </summary>
+            <param name="sessionId">The session id</param>
+            <param name="roundId">The round id</param>
+        </member>
+        <member name="M:PlanningPoker.Controllers.SessionController.EndSession(System.Guid)">
+            <summary>
+            End the session.
+            </summary>
+            <param name="sessionId">The session id</param>
+        </member>
+    </members>
+</doc>
